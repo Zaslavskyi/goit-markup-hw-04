@@ -501,6 +501,8 @@ background-color: var(--button-push-active);
 
 }
 
+
+
 .client {
         font-weight: 700;
         font-size: 36px;
@@ -516,6 +518,7 @@ background-color: var(--button-push-active);
     align-items: center;
     gap: 30px;
     margin-bottom: 94px;
+    outline: 1px solid var(--background-color2);
 }
 
 .client-item {
@@ -533,18 +536,16 @@ background-color: var(--button-push-active);
     border: 1px solid var(--links-conact-hover-focus);
 } 
 
-.client-item:hover .client-icon {
+.client-link:hover .client-icon {
     fill: var(--links-conact-hover-focus);
 }
-/*
-.client-item:focus {
-    border: 1px solid var(--links-conact-hover-focus);
+ 
+
+.client-link:focus .client-icon {
+    
+    fill: var(--links-conact-hover-focus);
 }
-/*
-.client-item:focus .client-icon {
-    color: var(--links-conact-hover-focus);
-}
-*/
+
 
 .footer {
     display: flex;
