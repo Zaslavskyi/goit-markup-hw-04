@@ -95,6 +95,8 @@ button {
     min-width: 100%;
 }
 
+/* ------- Header --------- */
+
 .header { 
         font-weight: 500;
         font-size: 14px;
@@ -108,9 +110,7 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 0;
-    
-    
+    margin-bottom: 0;    
 }
 
 .logo-beg {
@@ -142,7 +142,6 @@ button {
     letter-spacing: 0.03em;
     color: var(--logo-end-down);
 }
-
 
 .links {
     display: block;
@@ -180,7 +179,6 @@ button {
     gap: 10px;
 }
 
-
 .links:hover {
     color: var(--links-hover);
 }
@@ -188,7 +186,6 @@ button {
 .links:focus {
     color: var(--links-hover);
 }
-
 
 .nav-menu {
     cursor: pointer;
@@ -219,6 +216,7 @@ button {
     fill: var(--icon-mail-tel);
 }
 
+/*-------------- HEro ----------- */
 .order {
         min-width: 1600px;
         background: var(--order-background-color);
@@ -229,9 +227,7 @@ button {
             rgba(47, 48, 58, 0.4)
             ),
             url(../images/fon-main.jpg);
-       
 }
-
 
 .desigion {
         display: flex;
@@ -245,13 +241,11 @@ button {
         text-transform: uppercase;
         color: var(--desigion-color);
         margin-bottom: 30px;
-       
 }
 
 .container-button {
     display: flex;
     justify-content: center;
-    
 }
 
 .button-push {
@@ -268,8 +262,6 @@ button {
         border-radius: 4px;
         color: var(--order-button-color);
         border: 0;
-        
-
 }
 
 .button-push:hover {
@@ -294,7 +286,7 @@ button {
         letter-spacing: 0.06em;
         color: var(--order-button-color);
 }
-
+/*------------------ we are the best ! !! ---------- */
 .visually-hidden {
         position: absolute;
         width: 1px;
@@ -323,20 +315,17 @@ button {
         text-transform: uppercase;
         color: var(--advantage-color);
         margin-bottom: 10px;
-       
 }
 
 .container-advantage-list {
     display: flex;
     justify-content: space-between;
     gap: 30px;
-    
 }
 
 .advantage-list {
     flex-basis: calc((100% - 90px) / 4);
 }
-
 
 .advantage-title {
         font-weight: 400;
@@ -344,9 +333,9 @@ button {
         line-height: 1.7142;
         letter-spacing: 0.03em;
         color: var(--advantage-title-color);
-        
-        
 }
+
+/* ----------------- work ------------ */
 
 .container-work {
     display: flex;
@@ -368,7 +357,6 @@ button {
         color: var(--work-color);
         margin-top: 0;
         margin-bottom: 50px;
-       
 }
 
 .container.work {
@@ -381,30 +369,22 @@ button {
     display: flex;
     justify-content: center;
     gap: 30px;
-   
-    /*
-    padding-left: auto;
-    padding-right: auto;
-    
-    margin-bottom: 95px;
-*/
 }
 
 .working-foto {
     flex-basis: calc((100% - 60px) / 3);
 }
 
+/* ----------------- our team ------------*/
+
 .team {
         background: var(--team-color-background);
 }
-
 
 .team-list {
     display: flex;
     gap: 30px;
     justify-content: center;
-   
-   
 }
 
 .team-list-item {
@@ -414,17 +394,10 @@ button {
     border-radius: 0px 0px 4px 4px;
 }
 
-/*
-.foto {
-    
-}
-*/
-
 .team-info {
     padding-top: 30px;
     padding-bottom: 30px;
 }
-
 
 .name {
     font-weight: 500;
@@ -446,23 +419,16 @@ button {
     margin-bottom: 16px;
 }
 
-.social {
-
-}
-
 .social-list {
     display: flex;
     justify-content: center;
     gap: 10px;
-
 }
-
 
 .social-item {
     width: 44px;
     height: 44px;
     gap: 10px;
-
 }
 
 .social-link {
@@ -473,7 +439,6 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .social-link:hover {
@@ -492,11 +457,11 @@ background-color: var(--button-push-active);
     fill: var(--team-list-background);
 }
 
-
 .social-icon {
     fill: #AFB1B8;
-
 }
+
+/* ------------- CLIENTS ---------- */
 
 .client {
     font-weight: 700;
@@ -544,7 +509,11 @@ background-color: var(--button-push-active);
 .client-link:focus .client-icon {
     fill: var(--links-conact-hover-focus);
 }
+
+
 /*
+
+Розібратись і зрозуміти !!!!
 
 
 .clients-list {
@@ -588,6 +557,8 @@ background-color: var(--button-push-active);
 } */
 
 
+/*------------------ Footer -----------*/
+
 .footer {
     display: flex;
     flex-direction: column;
@@ -603,7 +574,6 @@ background-color: var(--button-push-active);
     display: inline-block;
     justify-content: flex-start;
     margin-bottom: 20px;
-    
 } 
 
 .footer-address-link {
@@ -613,7 +583,6 @@ background-color: var(--button-push-active);
 .container-footer-links {
     display: flex;
     flex-direction: column;
-    
 }
 
 .address {
@@ -624,8 +593,7 @@ background-color: var(--button-push-active);
         font-style: normal;
 }
 
-.footer-link {
-    
+.footer-link {    
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7142;
@@ -640,7 +608,6 @@ background-color: var(--button-push-active);
     color: var(--links-hover)
 }
 
-
 .footer-list:not(:last-child) {
     margin-bottom: 9px;
 }
@@ -650,9 +617,7 @@ background-color: var(--button-push-active);
     justify-content: center;
     gap: 8px;
     margin-bottom: 50px;
-    
 }
-
 
 .container-footer {
     display: flex;
@@ -669,18 +634,17 @@ background-color: var(--button-push-active);
 }
 
 .join {
-    margin-bottom: 20px;
-    font-weight: 700;
+        margin-bottom: 20px;
+        font-weight: 700;
         font-size: 14px;
         line-height: 1.1428;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--address-color);
-        
 }
 
 .footer-social-link {
-    width: 100%;
+        width: 100%;
         height: 100%;
         border-radius: 50%;
         background-color: rgba(255, 255, 255, 0.1);;
@@ -699,7 +663,9 @@ background-color: var(--button-push-active);
     background-color: var(--links-conact-hover-focus);
 }
 
-    .filter-tytle {
+/* ---------------- Portfolio / buttons --------- */
+
+.filter-tytle {
             font-weight: 500;
             font-size: 16px;
             line-height: 1.625;
@@ -715,24 +681,25 @@ background-color: var(--button-push-active);
                 gap: 50px;
                 margin-left: 93px;
             */    
-    }
+}
 
-    .filter-tytle:hover {
-        
+.filter-tytle:hover {        
         color: var(--filter-title-background);
         background-color: var(--filter-title-hover);
         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
         border-radius: 4px;
     }
 
-    .filter-tytle:focus {
+.filter-tytle:focus {
         color: var(--filter-title-background);
         background-color: var(--filter-title-hover);
         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
         border-radius: 4px;
-    }
+}
 
-    .filter {
+/* ------------- filter cards --------- */
+
+.filter {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -742,7 +709,7 @@ background-color: var(--button-push-active);
         line-height: 2;
         letter-spacing: 0.06em;
         color: var(--filter-color);
-    }
+}
 
 .filter-border {
         background: #FFFFFF;
@@ -753,23 +720,22 @@ background-color: var(--button-push-active);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-    .filter-work {
+.filter-work {
         font-weight: 400;
         font-size: 16px;
         line-height: 1.875;
         letter-spacing: 0.03em;
         color: var(--filter-work);
-    }
+}
 
-    .work-title {
+.work-title {
         font-weight: 700;
         font-size: 18px;
         line-height: 2;
         letter-spacing: 0.06em;
         color: var(--work-title);
         margin-bottom: 4px;
-       
-    }
+}
 
 .portfolio-title {
     padding: 20px 24px 20px 24px;
