@@ -223,7 +223,7 @@ button {
 }
 
 .order {
-    
+        min-width: 1600px;
         background: var(--order-background-color);
         padding-top: 200px;
         padding-bottom: 200px;
@@ -521,26 +521,18 @@ background-color: var(--button-push-active);
     border: 1px solid var(--icon);
     border-radius: 4px;
 }
-.client-item:hover .client-icon{
-    border: 1px solid var(--links-conact-hover-focus);
-}
-.client-item:focus {
-    border: 1px solid var(--links-conact-hover-focus);
-}
-
 .client-icon {
     padding-top: 16px;
     padding-bottom: 16px;
     fill: var(--icon);
-} /*
-.client-icon:hover,
-.client-icon:focus {
+}
+.client-item:hover {
+    border: 1px solid var(--links-conact-hover-focus);
+} 
+.client-item:hover .client-icon {
     fill: var(--links-conact-hover-focus);
 }
 
-.client-icon:focus {
-    fill: var(--links-conact-hover-focus);
-} */
 
 .footer {
     display: flex;
