@@ -536,7 +536,7 @@ background-color: var(--button-push-active);
 .client-item:hover .client-icon {
     fill: var(--links-conact-hover-focus);
 }
-
+/*
 .client-item:focus {
     border: 1px solid var(--links-conact-hover-focus);
 }
