@@ -11,6 +11,7 @@ p {
 * {
     
     text-decoration: none;
+    outline: var(--background-color2);
 }
 
 :root {
@@ -150,12 +151,21 @@ button {
     padding-bottom: 32px;
 }
 
-.links-conact:hover {
-    color: var(--links-conact-hover-focus);
-}
+.links-conact:hover,
 .links-conact:focus {
     color: var(--links-conact-hover-focus);
 }
+ /*
+.links-conact:focus {
+    color: var(--links-conact-hover-focus);
+} */
+.links-conact:hover .email-pic,
+.links-conact:focus .email-pic,
+.links-conact:hover .telefon-pic,
+.links-conact:focus .telefon-pic {
+    fill: var(--links-conact-hover-focus);
+}
+
 
 .email:hover .email-pic {
     fill: var(--links-conact-hover-focus);
@@ -219,14 +229,19 @@ button {
 /*-------------- HEro ----------- */
 .order {
         min-width: 1600px;
+        max-width: 1600px;
         background: var(--order-background-color);
         padding-top: 200px;
         padding-bottom: 200px;
+        margin: 0 auto;
         background-image: linear-gradient(
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)
             ),
             url(../images/fon-main.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
 }
 
 .desigion {
@@ -298,13 +313,14 @@ button {
         clip: rect(0 0 0 0);
 }
 
-.pikcha {
+.picture {
     background: #F5F4FA;
     border-radius: 4px;
     margin-bottom: 30px;
-    gap: 30px;
+    /* gap: 30px; */
     padding-top: 25px;
     padding-bottom: 25px;
+    text-align: center;
 }
 
 .advantage {
@@ -476,20 +492,22 @@ background-color: var(--button-push-active);
 .client-icon {
     padding-top: 16px;
     padding-bottom: 16px;
+    
 }
 
 .clients-list {
     display: flex;
     align-items: center;
     gap: 30px;
-    margin-bottom: 94px;
 }
 .clients-list .client-item {
     flex-basis: calc((100% - 150px) / 6);
 }
+
 .client-link {
     display: block;
     height: 92px;
+    outline: 1px solid var(--background-color2); 
     border: 1px solid var(--icon);
     border-radius: 4px;
 }
@@ -652,11 +670,13 @@ background-color: var(--button-push-active);
         justify-content: center;
         align-items: center;
 }
-.footer-social-item
-
+.footer-social-item {
+    width: 44px;
+    height: 44px;
+}
 .footer-social-icon {
     fill: #fff;
-    padding: 12px;
+
 }
 .footer-social-link:hover,
 .footer-social-link:focus {
@@ -714,6 +734,9 @@ background-color: var(--button-push-active);
 .filter-border {
         background: #FFFFFF;
         flex-basis: calc((100% - 60px) / 3);
+}
+.filter-link {
+    display: block;
 }
 
 .filter-border:hover {
